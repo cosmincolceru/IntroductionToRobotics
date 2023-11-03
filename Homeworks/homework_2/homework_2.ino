@@ -236,7 +236,7 @@ void loop() {
       // if the elevator is moving you can go to any floor exept for the one that is first in the queue or the current destination
       else if (elevatorMoving && !memory.isEmpty() && i != memory.getRear()) {
         memory.push(i);
-      }
+      } 
       else if (elevatorMoving && memory.isEmpty() && i != destination) {
         memory.push(i);
       }
