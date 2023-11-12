@@ -1,3 +1,6 @@
+// Program that simulates a stopwatch using 3 buttons and a 4 digit 7 segment display
+// The buttons are used for starting/stoping the stopwatch, reseting, saving a lap and viewing saved laps
+
 #define SHORT_PRESS 1
 #define CONTINUOUS_PRESS 2
 

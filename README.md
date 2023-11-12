@@ -51,3 +51,20 @@ This repository contains the laboratory homeworks for the "Introduction to Robot
 	</ul>
 
 </details>
+
+<details>
+	<summary>Homework #4 - Stopwatch Timer</summary>
+	<h2>Task Requirements</h2>
+	<p>Use a 4 digit 7 segment display and 3 buttons to implement a stopwatch timer that counts in 10ths of a second and has a save lap functionality (similar to most basic stopwatch functions on most phones).</p>
+	<p>The starting value of the 4 digit 7 segment display should be ”000.0”. Your buttons should have the following functionalities:</p>
+	<ul>
+		<li>Button 1: Start / pause.</li>
+		<li>Button 2: Reset (if in pause mode). Reset saved laps (if in lap viewing mode).</li>
+		<li>Button 3: Save lap (if in counting mode), cycle through last saved laps (up to 4 laps).</li>
+	</ul>	
+	<h2>Photo of the setup</h2>
+	<img src="Assets/homework_4.jpg">
+	<h2>Video</h2>
+	<a href="https://www.youtube.com/watch?v=WpZOTJZQCmM">YouTube link</a>
+	</ul>
+</details>
