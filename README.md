@@ -68,3 +68,50 @@ This repository contains the laboratory homeworks for the "Introduction to Robot
 	<a href="https://www.youtube.com/watch?v=WpZOTJZQCmM">YouTube link</a>
 	</ul>
 </details>
+
+<details>
+	<summary>Homework #5 - Pseudo-smart environment monitor and logger</summary>
+	<h2>Task Requirements</h2>
+	<p>Develop a ”Smart Environment Monitor and Logger” using Arduino. This system will utilize various sensors to gather environmental data, log this data into EEPROM, and provide both visual feedback via an RGB LED and user interaction through a Serial Menu. </p>
+	<p>Menu Structure:</p>
+	<ol>
+		<li>
+			<p>Sensor Settings // Go to submenu</p>
+			<ol>
+				<li>Sensors Sampling Interval. Here you should be prompted for a value between 1 and 10 seconds. Use this value as a sampling rate for the sensors. You can read a separate value for each or have the same for both.</li>
+				<li>Ultrasonic Alert Threshold. Here you should be prompted for a threshold value for the ultrasonic sensor. You can decide if that is the min or max value (you can signal that something is too close). When sensor value exceeds the threshold value, an alert should be given. This can be in the form of a message. If the LED is set to Automatic Mode, it should also turn red if any of the sensors are outside the value.</li>
+				<li>LDR Alert Threshold. Here you should be prompted for a threshold value for the LDR sensor. You can decide if that is the min or max value (for example, it could signal that night is coming). When sensor value exceeds the threshold value, an alert should be given. This can be in the form of a message. If the LED is set to Automatic Mode, it should also turn red if any of the sensors are outside the value.</li>
+				<li>Back // Return to main menu</li>
+			</ol>
+		</li>
+		<li>
+			<p>Reset Logger Data. Should print a message, promting if you to confirm to delete all data. Something like ”are you sure?”, followed by the submenu with YES or NO. You can reset both sensor data at the same time, or you can do it individually. Your choice. Individually makes more sense, but I’m trying to simplify the homework.</p>
+			<ol>
+				<li>Yes</li>
+				<li>No</li>
+			</ol>
+		</li>
+		<li>
+			<p>System Status // Check current status and health</p>
+			<ol>
+				<li>Current Sensor Readings. Continuously print sensor readings at the set sampling rate, from all sensors. Make sure you have a way to exit this (such as pressing a specific key) and inform the user of this method through a message.</li>
+				<li>Current Sensor Settings. Displays the sampling rate and threshold value for all sensors.</li>
+				<li>Display Logged Data. Displays last 10 sensor readings for all sensors.</li>
+				<li>Back. Return to Main menu.</li>
+			</ol>
+		</li>
+		<li>
+			<p>RGB LED Control // Go to submenu</p>
+			<ol>
+				<li>Manual Color Control. Set the RGB colors manually. You decide how to input them, either by making an option for each channel, or by putting a string etc. If you expect a specific format, make sure to inform the user.</li>
+				<li>LED: Toggle Automatic ON/OFF. If automatic mode is ON, then the led color should be GREEN when all sensors value do not exceed threshold values (aka no alert) and RED when there is an alert (aka ANY sensor value exceeds the threshold). When automatic mode is OFF, then the LED should use the last saved RGB values.</li>
+				<li>Back // Return to main menu</li>
+			</ol>
+		</li>
+	</ol>	
+	<h2>Photo of the setup</h2>
+	<img src="Assets/homework_5.jpg">
+	<h2>Video</h2>
+	<a href="https://youtu.be/x1IaNj1Zl58">YouTube link</a>
+	</ul>
+</details>
