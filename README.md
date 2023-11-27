@@ -14,7 +14,8 @@ This repository contains the laboratory homeworks for the "Introduction to Robot
 </details>
 
 <details>
-	<summary>Homework #2 - Elevator simulator wannabe</summary>
+
+<summary>Homework #2 - Elevator simulator wannabe</summary>
 	<h2>Task Requirements</h2>
 	Design a control system that simulates a 3-floor elevator using the Arduino platform. Here are the specific requirements:
 	<ul>
@@ -114,4 +115,15 @@ This repository contains the laboratory homeworks for the "Introduction to Robot
 	<h2>Video</h2>
 	<a href="https://youtu.be/x1IaNj1Zl58">YouTube link</a>
 	</ul>
+</details>
+
+<details>
+	<summary>Homework #6 - Mini Matrix Game</summary>
+	<h2>Task Requirements</h2>
+	<p>Develop a small game on the 8x8 matrix. The game must have at least 3 types of elements: player (blinks slowly), bombs/bullets (blinks fast), wall (doesn’t blink). The purpose of this to get you started with your matrix project. The basic idea is that you generate walls on the map (50% - 75% of the map) and then you move around with the player and destroy them. You can do it Bomberman style or terminator-tanks style.</p>
+	<p>The player and the bombs/bullets need to blink at different rates. The player should blink slowly and the bomb/bullet should blink fast. The wall should not blink at all.</p>
+	<h2>Photo of the setup</h2>
+	<img src="Assets/homework_6.jpg">
+	<h2>Video</h2>
+	<a href="https://youtu.be/dJelCZgs6_o">YouTube link</a>
 </details>
