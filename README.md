@@ -127,3 +127,38 @@ This repository contains the laboratory homeworks for the "Introduction to Robot
 	<h2>Video</h2>
 	<a href="https://youtu.be/dJelCZgs6_o">YouTube link</a>
 </details>
+
+<details>
+	<summary>Homework #7 - Matrix Checkpoint</summary>
+	<h2>Task Requirements</h2>
+	<p>Add the following functionality for this checkpoint:</p>
+	<ol>
+		<li>Intro Message - When powering up the project, a greeting message should be shown for a few moments.<\li>
+		<li>
+			Menu:
+			<ul>
+				<li>Start game</li>
+				<li>
+					Settings
+					<ul>
+						<li> LCD brightness control. Save value to EEPROM and load it upon system start.</li>
+						<li>Matrix brightness control (see function setIntesnity from the Led Control library). Make sure to display something on the matrix when selecting it. Save value to EEPROM and load it upon system start.</li>
+					</ul>
+				</li>
+				<li>About: should include details about the creator(s) of the game.</li>
+			</ul>
+		</li>
+		<li> End Message - When the game ends, add a message. Wait for a promt from the user (a button push, for example), before returning to main menu again.</li>
+		<li>
+			During gameplay:
+			<ul>
+				<li>Show relevant details, that are dynamic (change with gameplay): time, level, lives etc. Doesn’t matter, what can be used. You can implement the number of LEDs that are still switched on.</li>
+				<li>Implement an end game / level functionality. You current game should end. For example, if you implemented the game where you ”destroy” all the LEDs, it should end when you finished them all. Upon ending, it should display the aforementioned message, wait for user prompt and then return to the main menu again.</li>
+			</ul>
+		</li>
+	</ol>
+	<h2>Photo of the setup</h2>
+	<img src="Assets/homework_7.jpg">
+	<h2>Video</h2>
+	<a href="https://youtu.be/1I-HX6EnAG8">YouTube link</a>
+</details>
