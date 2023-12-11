@@ -133,7 +133,7 @@ This repository contains the laboratory homeworks for the "Introduction to Robot
 	<h2>Task Requirements</h2>
 	<p>Add the following functionality for this checkpoint:</p>
 	<ol>
-		<li>Intro Message - When powering up the project, a greeting message should be shown for a few moments.<\li>
+		<li>Intro Message - When powering up the project, a greeting message should be shown for a few moments.</li>
 		<li>
 			Menu:
 			<ul>
